@@ -5,7 +5,6 @@ module.exports.run = async (bot,message,args) => {
     if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("You can't do that.");
     
     let botmessage = args.join(" ");
-    message.delete();
 
     const annEmbed = new Discord.RichEmbed()
         .setTitle("**ANNOUNCEMENT**")
