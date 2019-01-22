@@ -5,7 +5,7 @@ module.exports.run = async (bot,message,args) => {
 
     const ann30 = new Discord.RichEmbed()
         .setTitle("**List of commands**")
-        .addField("!start", "Starts the scrim game")
+        .addField("!count", "Starts the scrim game")
         .addField("!stop", "Stops the scrim game")
         .addField("!5min", "Sends announcement that game starts in 5 minutes. Usage : !5min <gamemode>")
         .addField("!60s", "Sends announcement that game starts in 1 minute. Usage : !60s <gamemode>")
